@@ -10,7 +10,7 @@ const app = express();
 // CORS configuration for production
 const corsOptions = {
   origin: process.env.NODE_ENV === 'production' 
-    ? ['https://moneyweb.vercel.app', 'https://your-domain.com'] 
+    ? ['https://website-currency-frontend.vercel.app', 'https://websitecurrency-backend.onrender.com', 'https://your-domain.com'] 
     : ['http://localhost:3000', 'http://localhost:3001'],
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization'],
